@@ -1,13 +1,11 @@
 
-This project was made to experiment urban green area segmentation from UAV imagery using pseudo-labeling and deep learning. 
-It was made a comparison between a classical SRM baseline and an edge-aware pipeline (K-Means + Sobel), with ~400 generated pseudo-labels used to train a U-Net for binary vegetation mapping.
 
 
 # Urban Green Area Segmentation from UAV Imagery
 
 Pipeline for **urban vegetation segmentation** using **pseudo-labeling** and **deep learning**.  
-We compare a **classical unsupervised baseline** (SRM via Felzenszwalb) with an **edge-aware pseudo-labeling strategy (v2.6)** that combines **K-Means** and **Sobel**.  
-The pseudo-labels supervise a **U-Net** trained for binary vegetation masks on the Semantic Drone Dataset.
+This project was made to experiment urban green area segmentation from UAV imagery using pseudo-labeling and deep learning. 
+It was made a comparison between a classical SRM baseline and an edge-aware pipeline (K-Means + Sobel), with ~400 generated pseudo-labels used to train a U-Net for binary vegetation mapping.
 
 ---
 
